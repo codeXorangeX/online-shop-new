@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,300,700');
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0b0b0b;
+  font-family: 'Nunito', Arial, sans-serif;
+}
+
+nav {
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  height: 70px;
+  background-color: #ffffff;
+  line-height: 70px;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav .container {
+  padding: 0 10px;
+}
+
+.logo {
+  width: 83px;
+}
+
+.logo img {
+  max-width: 83px;
+}
+
+nav ul {
+  float: left;
+}
+nav ul li {
+  font-weight: bold;
+  display: inline-block;
+  margin-left: 50px;
+  color: #0b0b0b;
+  font-size: 14px;
+}
+
+nav ul li a{
+  text-decoration: none;
+}
+
+.container.top {
+  padding: 100px 0 0;
+  justify-content: center;
+}
+
+form input[name="search"]{
+  width: 300px;
+  padding: 10px;
+  color: #fff;
+  font-size: 20px;
+  background-color: transparent;
+  border: 1px solid #333;
+  border-radius: 3px;
+}
+
+form input[name="submit"] {
+  color: #fff;
+  padding: 10px;
+  color: aqua;
+  border: 1px solid aqua;
+  border-radius: 3px;
+  font-size: 20px;
+  background-color: transparent;
+}
+
+form input[name="submit"]:hover {  
+  background-color: aqua;
+  color: #333;
+  transition: 0.3s ease 0s;
+}
+
+.container {
+  padding: 20px;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1024px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.prod-wrap {
+  max-width: 230px;
+  width: 100%;
+  border: 1px solid #fff;
+  border-radius: 2px;
+  display: block;
+  position: relative;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.prod-img {
+  width: 100%;
+  display: block;
+}
+
+.prod-img img{
+  width: 100%;
+}
+
+.prod-h {
+    color: #d54d4d;
+    font-size: 18px;
+}
+
+
+.prod-txt {
+  width: 100%;
+  display: block;
+  margin: 20px 0;
+}
+
+.prod-txt p {
+  color: #fff;
+  font-size: 18px;
+}
+
+.price-cart {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+
+.price-cart p {
+  color: red;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.price-cart a {
+  text-align: center;
+  padding: 10px;
+  border: 1px solid aqua;
+  border-radius: 2px;
+  color: aqua;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  display: block;
+  position: relative;
+  width: 120px;
+}
+
+.price-cart a:hover {
+  background-color: aqua;
+  color: #333;
+  transition: 0.3s ease 0s;
+}
+
+.footer {
+  height: 100%;
+  background-color: #232323;
+  }
+  .footer__wrapper {
+    max-width: 200px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 50px;
+    font-family: 'Nunito', Arial, sans-serif;
+    color: #ffff;
+    }
+  .footer__subtitle {
+    text-align: center;
+    font-size: 7px;
+    margin-bottom: 30px;
+    }
+  .footer__socials {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    }
+    .footer__socials a {
+      font-size: 17px;
+      color: #ffff;
+      }
+      .footer__socials a:nth-of-type(3n) {
+        color: #5474fd;
+        }
