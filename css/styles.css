@@ -39,7 +39,7 @@ nav ul li {
   display: inline-block;
   margin-left: 50px;
   color: #0b0b0b;
-  font-size: 14px;
+  font-size: 18px;
 }
 
 nav ul li a{
@@ -162,7 +162,7 @@ form input[name="submit"]:hover {
   background-color: #232323;
   }
   .footer__wrapper {
-    max-width: 200px;
+    max-width: 415px;;
     width: 100%;
     margin: 0 auto;
     display: flex;
@@ -174,18 +174,21 @@ form input[name="submit"]:hover {
     }
   .footer__subtitle {
     text-align: center;
-    font-size: 7px;
+    font-size: 14px;
     margin-bottom: 30px;
     }
   .footer__socials {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     margin-bottom: 30px;
     }
     .footer__socials a {
       font-size: 17px;
       color: #ffff;
+      }
+      .footer__socials a:hover{
+        opacity: .1;
       }
       .footer__socials a:nth-of-type(3n) {
         color: #5474fd;

@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="./css/reset.css">
-  <link rel="stylesheet" href="./css/styles.css">
+  <!--<link rel="stylesheet" href="./css/styles.css">-->
+  <link rel="stylesheet" href="./css/index.css">
   <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
   <link rel="shortcut icon" href="./img/favicon.png" type="image/png">
   <title>Online CD&Vinyl Shop</title>
@@ -16,8 +17,8 @@
         <img src="img/logo.jpg">
       </div>
       <ul>
-        <li><a href="">Home</a></li>
-        <li><a href="#">CD&Vinyl Shop</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="catalog.html">CD&Vinyl Shop</a></li>
         <li><a href="#">Contact</a></li>
       </ul>
       <div class="cart">
@@ -27,254 +28,64 @@
       </div>
   </div>
   </nav>
-<div class="container top">
-  <form>
-    <input type="text" placeholder="Search.." name="search">
-    <input type="submit" name="submit" value="search">
-  </form>
+
+<div class="wrapper">
+  <input checked type=radio name="slider" id="slide1" />
+  <input type=radio name="slider" id="slide2" />
+  <input type=radio name="slider" id="slide3" />
+  <input type=radio name="slider" id="slide4" />
+  <input type=radio name="slider" id="slide5" />
+
+  <div class="slider-wrapper">
+    <div class=inner>
+      <article>
+        <div class="info top-left"></div>
+        <img src="img/slide1.jpg" />
+      </article>
+
+      <article>
+        <div class="info bottom-right"></div>
+        <img src="img/slide2.jpg" />
+      </article>
+
+      <article>
+        <div class="info bottom-left"></div>
+        <img src="img/slide3.jpg" />
+      </article>
+
+      <article>
+        <div class="info top-right"></div>
+        <img src="img/slide4.jpg" />
+      </article>
+
+      <article>
+        <div class="info bottom-left"></div>
+        <img src="img/slide5.jpg" />
+      </article>
+    </div>
+    <!-- .inner -->
+  </div>
+  <!-- .slider-wrapper -->
+
+  <div class="slider-prev-next-control">
+    <label for=slide1></label>
+    <label for=slide2></label>
+    <label for=slide3></label>
+    <label for=slide4></label>
+    <label for=slide5></label>
+  </div>
+  <!-- .slider-prev-next-control -->
+
+  <div class="slider-dot-control">
+    <label for=slide1></label>
+    <label for=slide2></label>
+    <label for=slide3></label>
+    <label for=slide4></label>
+    <label for=slide5></label>
+  </div>
+  <!-- .slider-dot-control -->
 </div>
-<div class="container">
-  <div class="prod-wrap">
-    <div class="prod-img"><img src="img/1.jpg"></div>
-    <div class="prod-h">
-      <h1>108 "A NEW BEAT FROM A DEAD HEART"</h1>
-    </div>
-    <div class="prod-txt">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-    </div>
-    <div class="price-cart">
-      <p>$ 100</p>
-      <a href="#">add to cart</a>
-    </div>
-  </div>
 
-  <div class="prod-wrap">
-    <div class="prod-img"><img src="img/2.png"></div>
-    <div class="prod-h">
-      <h1>100 DEMONS "SELF TITLED"</h1>
-    </div>
-    <div class="prod-txt">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-  </div>
-    <div class="price-cart">
-      <p>$ 125</p>
-      <a href="#">add to cart</a>
-    </div>
-  </div>
-
-  <div class="prod-wrap">
-    <div class="prod-img"><img src="img/3.jpg"></div>
-    <div class="prod-h">
-      <h1>108 "THREEFOLD MISERY</h1>
-    </div>
-    <div class="prod-txt">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-  </div>
-    <div class="price-cart">
-      <p>$ 110</p>
-      <a href="#">add to cart</a>
-    </div>
-  </div>
-
-  <div class="prod-wrap">
-    <div class="prod-img"><img src="img/4.jpg"></div>
-    <div class="prod-h">
-      <h1>50 LIONS "FORMER GLORY"</h1>
-    </div>
-    <div class="prod-txt">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-  </div>
-    <div class="price-cart">
-      <p>$ 150</p>
-      <a href="#">add to cart</a>
-    </div>
-  </div>
-
-  <div class="prod-wrap">
-    <div class="prod-img"><img src="img/5.jpg"></div>
-    <div class="prod-h">
-      <h1>ABEST "ASYLUM"</h1>
-    </div>
-    <div class="prod-txt">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-  </div>
-    <div class="price-cart">
-      <p>$ 299</p>
-      <a href="#">add to cart</a>
-    </div>
-  </div>
-
-  <div class="prod-wrap">
-    <div class="prod-img"><img src="img/6.jpg"></div>
-    <div class="prod-h">
-      <h1>ACID TIGER "SELF TITLED"</h1>
-    </div>
-    <div class="prod-txt">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-  </div>
-    <div class="price-cart">
-      <p>$ 250</p>
-      <a href="#">add to cart</a>
-    </div>
-  </div>
-
-  <div class="prod-wrap">
-    <div class="prod-img"><img src="img/7.jpg"></div>
-    <div class="prod-h">
-      <h1>ADVENTURES "SUPERSONIC HOME"</h1>
-    </div>
-    <div class="prod-txt">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-  </div>
-    <div class="price-cart">
-      <p>$ 190</p>
-      <a href="#">add to cart</a>
-    </div>
-  </div>
-
-  <div class="prod-wrap">
-    <div class="prod-img"><img src="img/8.jpg"></div>
-    <div class="prod-h">
-      <h1>AFFLICTIVE NATURE "JUDGED PUNISHED ERASED"</h1>
-    </div>
-    <div class="prod-txt">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-  </div>
-    <div class="price-cart">
-      <p>$ 175</p>
-      <a href="#">add to cart</a>
-    </div>
-  </div>
-
-  <div class="prod-wrap">
-    <div class="prod-img"><img src="img/9.jpg"></div>
-    <div class="prod-h">
-      <h1>AGITATOR "BLEAK"</h1>
-    </div>
-    <div class="prod-txt">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-  </div>
-    <div class="price-cart">
-      <p>$ 199</p>
-      <a href="#">add to cart</a>
-    </div>
-  </div>
-
-  <div class="prod-wrap">
-    <div class="prod-img"><img src="img/10.jpg"></div>
-    <div class="prod-h">
-      <h1>AGNOSTIC FRONT "NO ONE RULES"</h1>
-    </div>
-    <div class="prod-txt">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-  </div>
-    <div class="price-cart">
-      <p>$ 185</p>
-      <a href="#">add to cart</a>
-    </div>
-  </div>
-
-  <div class="prod-wrap">
-    <div class="prod-img"><img src="img/11.jpg"></div>
-    <div class="prod-h">
-      <h1>ALL PIGS MUST DIE "SELF TITLED"</h1>
-    </div>
-    <div class="prod-txt">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-  </div>
-    <div class="price-cart">
-      <p>$ 299</p>
-      <a href="#">add to cart</a>
-    </div>
-  </div>
-
-  <div class="prod-wrap">
-    <div class="prod-img"><img src="img/12.jpg"></div>
-    <div class="prod-h">
-      <h1>AMENRA "MASS VI"</h1>
-    </div>
-    <div class="prod-txt">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-  </div>
-    <div class="price-cart">
-      <p>$ 140</p>
-      <a href="#">add to cart</a>
-    </div>
-  </div>
-
-  <div class="prod-wrap">
-    <div class="prod-img"><img src="img/13.png"></div>
-    <div class="prod-h">
-      <h1>ANCHOR "RECOVERY"</h1>
-    </div>
-    <div class="prod-txt">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-  </div>
-    <div class="price-cart">
-      <p>$ 150</p>
-      <a href="#">add to cart</a>
-    </div>
-  </div>
-
-  <div class="prod-wrap">
-    <div class="prod-img"><img src="img/14.jpg"></div>
-    <div class="prod-h">
-      <h1>AXIS "SHOW YOUR GREED"</h1>
-    </div>
-    <div class="prod-txt">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-  </div>
-    <div class="price-cart">
-      <p>$ 170</p>
-      <a href="#">add to cart</a>
-    </div>
-  </div>
-
-  <div class="prod-wrap">
-    <div class="prod-img"><img src="img/15.jpg"></div>
-    <div class="prod-h">
-      <h1>BELL WITCH "MIRROR REAPER"</h1>
-    </div>
-    <div class="prod-txt">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-  </div>
-    <div class="price-cart">
-      <p>$ 175</p>
-      <a href="#">add to cart</a>
-    </div>
-  </div>
-
-  <div class="prod-wrap">
-    <div class="prod-img"><img src="img/16.jpg"></div>
-    <div class="prod-h">
-      <h1>ABLE BAKER FOX "VISIONS"</h1>
-    </div>
-    <div class="prod-txt">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-  </div>
-    <div class="price-cart">
-      <p>$ 275</p>
-      <a href="#">add to cart</a>
-    </div>
-  </div>
-
-</div>
 <!-- Footer -->
 <footer class="footer">
     <div class="footer__wrapper">
